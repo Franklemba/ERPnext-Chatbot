@@ -25,8 +25,14 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/chatbot_integration/css/chatbot_integration.css"
+app_include_css = "/assets/chatbot_integration/css/chatbot_integration.css"
 # app_include_js = "/assets/chatbot_integration/js/chatbot_integration.js"
+app_include_js = [
+    "/assets/chatbot_integration/js/chatbot_integration.js",
+    "/assets/chatbot_integration/js/show_chatbot_dialog.js"
+]
+
+
 
 # include js, css files in header of web template
 # web_include_css = "/assets/chatbot_integration/css/chatbot_integration.css"
